@@ -1,0 +1,29 @@
+{
+  "name": "WheelOfLive",
+  "description": "Circle chart Wheel of live on svg",
+  "main": [
+    "dist/wheelOfLiven.js"
+  ],
+  "dependencies": {
+    "snap.svg": "latest"
+  },
+  "version":"0.0.1",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "circle",
+    "svg",
+    "chart"
+  ],
+  "authors": [
+    "Dmitriy Kharin <diharin@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+  ],
+}
