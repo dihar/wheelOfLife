@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Wheel Of Live</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="bower_components/Snap.svg/dist/snap.svg-min.js"></script>
+	<script src="dist/wheelOfLive.js"></script>
+</head>
+<body>
+	<svg width="500" height="500" viewBox="0 0 600 600" style="display:block; margin: auto;"></svg>
+	<script>
+
+		var svg = Snap('svg');
+
+
+		var wheelOfLife = new WheelOfLife(svg,{
+
+			arcOffset: 22.5,
+			backCircleAttr: {
+					fill: '#ffffff'
+				},
+			centreX: 300,
+			centreY: 300,
+			miniSectorAttr: {
+					strokeWidth: 1,
+					stroke: '#f4f4f4',
+					fill: 'rgba(240, 240, 240, 0.2)',
+					strokeLinejoin: 'round',
+					strokeLinecap: 'round'
+				},
+			miniSectorHover: [function(){
+				this.attr({
+					fill: 'rgba(240, 240, 240, 0.6)'
+				})
+			},function(){
+				this.attr({
+					fill: 'rgba(240, 240, 240, 0.2)'
+				})
+			}],
+			backgroundAnimAttr: {
+				stroke: 'none'
+			},
+			backgroundAnimColors: ['#D32F2F','#FF4081','#303F9F',
+									'#4CAF50','#E64A19', '#795548','#FFEB3B','#E040FB'],
+			speedBackgroundAnim: 200,
+			enable: true,
+			captionWidth: 40,
+			textAttr: {
+				fontSize: 24,
+				strokeWidth: 0,
+				stroke: '#ddd',
+				fill: '#fdfdfd',
+				cursor: 'default'
+			}
+
+		},WheelOfLife().createDataArr(
+			['one', 'two','tree', 'four', 'five','six', 'seven', 'eight'],
+			WheelOfLife().range(1, 1, 10),
+			[6,9,6,9,6,9,6,9],
+			['Карьера', 'Финансы','Здоровье', 'Семья', 'Отношения',
+				'Личностный рост', 'Духовное развитие', 'Отдых']
+		));
+	</script>
+</body>
+</html>

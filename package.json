@@ -1,0 +1,26 @@
+{
+  "name": "WheelOfLive",
+  "version": "0.0.1",
+  "description": "circle chart Wheel of live",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dihar/wheelOfLive.git"
+  },
+  "keywords": [
+    "chart",
+    "svg"
+  ],
+  "author": "Dmitriy Kharin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dihar/wheelOfLive/issues"
+  },
+  "homepage": "https://github.com/dihar/wheelOfLive#readme",
+  "dependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.0"
+  }
+}
