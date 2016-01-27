@@ -1,13 +1,13 @@
 {
   "name": "WheelOfLive",
   "description": "Circle chart Wheel of live on svg",
+  "version": "0.0.1",
   "main": [
     "dist/wheelOfLiven.js"
   ],
   "dependencies": {
     "snap.svg": "latest"
   },
-  "version":"0.0.1",
   "moduleType": [
     "amd",
     "globals",
@@ -24,6 +24,6 @@
   "license": "MIT",
   "ignore": [
     "node_modules",
-    "bower_components",
+    "bower_components"
   ],
 }
