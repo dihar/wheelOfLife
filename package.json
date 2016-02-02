@@ -1,7 +1,7 @@
 {
   "name": "WheelOfLife",
   "version": "0.0.1",
-  "description": "circle chart Wheel of live",
+  "description": "circle chart Wheel of life",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
