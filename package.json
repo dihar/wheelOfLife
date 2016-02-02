@@ -1,5 +1,5 @@
 {
-  "name": "WheelOfLive",
+  "name": "WheelOfLife",
   "version": "0.0.1",
   "description": "circle chart Wheel of live",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dihar/wheelOfLive.git"
+    "url": "git+https://github.com/dihar/wheelOfLife.git"
   },
   "keywords": [
     "chart",
@@ -16,9 +16,9 @@
   "author": "Dmitriy Kharin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dihar/wheelOfLive/issues"
+    "url": "https://github.com/dihar/wheelOfLife/issues"
   },
-  "homepage": "https://github.com/dihar/wheelOfLive#readme",
+  "homepage": "https://github.com/dihar/wheelOfLife#readme",
   "dependencies": {
     "browser-sync": "^2.11.1",
     "gulp": "^3.9.0"

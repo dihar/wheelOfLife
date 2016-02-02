@@ -1,9 +1,9 @@
 {
-  "name": "WheelOfLive",
-  "description": "Circle chart Wheel of live on svg",
+  "name": "WheelOfLife",
+  "description": "Circle chart Wheel of life on svg",
   "version": "0.0.1",
   "main": [
-    "dist/wheelOfLiven.js"
+    "dist/wheelOfLife.js"
   ],
   "dependencies": {
     "snap.svg": "latest"
@@ -24,6 +24,9 @@
   "license": "MIT",
   "ignore": [
     "node_modules",
-    "bower_components"
+    "bower_components",
+    ".gitignore",
+    "gulpfile.js",
+    "package.json"
   ]
 }
